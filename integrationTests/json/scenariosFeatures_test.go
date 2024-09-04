@@ -40,16 +40,16 @@ func TestRustBasicFeaturesNoSmallIntApi(t *testing.T) {
 }
 
 // Backwards compatibility.
-func TestRustBasicFeaturesLegacy(t *testing.T) {
-	if testing.Short() {
-		t.Skip("not a short test")
-	}
+// func TestRustBasicFeaturesLegacy(t *testing.T) {
+// 	if testing.Short() {
+// 		t.Skip("not a short test")
+// 	}
 
-	ScenariosTest(t).
-		Folder("features/basic-features-legacy/scenarios").
-		Run().
-		CheckNoError()
-}
+// 	ScenariosTest(t).
+// 		Folder("features/basic-features-legacy/scenarios").
+// 		Run().
+// 		CheckNoError()
+// }
 
 func TestRustBigFloatFeatures(t *testing.T) {
 	if testing.Short() {

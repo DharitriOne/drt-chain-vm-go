@@ -36,7 +36,7 @@ func NewTestHostBuilder(tb testing.TB) *TestHostBuilder {
 			BlockGasLimit:            uint64(1000),
 			GasSchedule:              nil,
 			BuiltInFuncContainer:     nil,
-			ProtectedKeyPrefix:       []byte("E" + "L" + "R" + "O" + "N" + "D"),
+			ProtectedKeyPrefix:       []byte("N" + "U" + "M" + "B" + "A" + "T"),
 			DCDTTransferParser:       dcdtTransferParser,
 			EpochNotifier:            &mock.EpochNotifierStub{},
 			EnableEpochsHandler:      worldmock.EnableEpochsHandlerStubAllFlags(),
